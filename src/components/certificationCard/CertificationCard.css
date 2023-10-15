@@ -96,6 +96,12 @@
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
+/* .certs-header-div{
+  display: none;
+}
+.certs-body-div{
+  display: none;
+} */
 
 .fadeIn-top {
   top: 20%;
