@@ -3,131 +3,78 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Dealance",
-      "createdAt": "2020-03-06T16:26:54Z",
+      "createdAt": "Aug 2016 - Jun 2018",
       "url": "",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "description": "🔥 Dealance is a web platform, It is a marketplace where employers and employees are able to find each other. People can request to work out on specific categories of jobs only. In this platform there are three types of users.",
       "isFork": false,
       "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
+        
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
       "name": "E-Lube",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "createdAt": "Jun 2018 – Nov 2019",
+      "url": "",
+      "description": "📦 E-Lube application software handles the complexities of machine lubrication. It reportedly enables maintenance operations to simplify, automate, and streamline lubrication management..",
       "isFork": false,
       "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "DIT-Forms",
-      "name": "DIT-Forms",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
+        
       ]
     },
     {
       "id": "R_kgDOGcPKSQ",
       "name": "Talent Now",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "createdAt": "Nov 2019 – Aug 2020",
+      "url": "",
+      "description": "⚙️ Talent Now is a web-based application which deals with contracts to hire based candidates’ submission up to the onboarding process managed by managers (MSP) and vendors..",
       "isFork": false,
       "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
+        
+      ]
+    },
+    {
+      "id": "DIT-Forms",
+      "name": "DIT-Forms",
+      "createdAt": "Aug 2020 – Feb 2021",
+      "url": "",
+      "description": "🌀 DIT is a web based application that serves the purpose to aid in the Disassembly and Inspection process of the drilling equipment for overhaul and repair both in offline and online mode. DIT has Digital Forms equivalent to the templates in ePIMS system used for inspections globally.",
+      "isFork": false,
+      "languages": [
+        
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
       "name": "Avitas",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
+      "createdAt": "Feb 2021 - May 2022",
+      "url": "",
+      "description": "🚀  Avitas strives to revolutionize the oil & gas, and power industries by offering innovative solutions. Leveraging predictive data analytics, robotics, and artificial intelligence, Avitas provides advanced capabilities to enhance operations. With a focus on both underwater (Terrain) and terrestrial (Sky) examinations, Avitas employs drones to capture images and detect leaks. Immediately alerts are generated for the responsible personnel whenever leaks are identified, enabling prompt inspections and necessary actions. Avitas aims to deliver comprehensive and efficient solutions to ensure safety and optimize performance in these industries.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
+        
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "GHEM",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "createdAt": "May 2022 – Aug 2023",
+      "url": "",
+      "description": "🚀 The Greenhouse Emission Management (GHEM) system is designed to help energy industry players monitor their emissions in a more efficient and effective manner. The system enables the measurement, monitoring, and reporting of greenhouse gas emissions across various sources in the energy industry.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
+       
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "E2C",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
+      "createdAt": "Aug 2023",
+      "url": "",
       "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
       "isFork": false,
       "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
+        
       ]
     }
   ]
