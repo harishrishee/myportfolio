@@ -3,36 +3,41 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Change this to the branch you want to deploy from
+      - master  # Trigger the workflow on pushes to the main branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout Repository and Switch to gh-pages
       uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
       with:
-        node-version: 14  # Change this to your Node.js version
+        ref: gh-pages  # Switch to the gh-pages branch
 
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Build
-      run: npm run build  # Replace with your build command
-
-    - name: Deploy to GitHub Pages
+    - name: Copy Build Files to gh-pages Branch
       run: |
-        git config --global user.name "harishrishee"
-        git config --global user.email "harishrishee@mail.com"
-        git checkout --orphan gh-pages
-        git remote add origin https://github.com/harishrishee/myportfolio.git
-        git rm -rf .
-        mv -f build/* .
-        touch .nojekyll  # Use this if you want to disable Jekyll processing (useful for static sites)
+        # Move build files to a temporary location
+        mv build /tmp/build
+
+        # Clean up the current branch (gh-pages)
+        git rm -r --ignore-unmatch .
+
+        # Copy the build files to the current branch (gh-pages)
+        cp -r /tmp/build/* .
+
+        # Commit the changes
+        git config user.name "harishrishee"
+        git config user.email "harishrishee@gmail.com"
         git add .
         git commit -m "Deploy to GitHub Pages"
+
+        # Push the changes to the gh-pages branch
         git push origin gh-pages
+
+    - name: Cleanup
+      run: |
+        # Clean up, remove the temporary build directory
+        rm -rf /tmp/build
+
+      # Continue with any additional steps as needed
