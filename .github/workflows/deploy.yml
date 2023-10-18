@@ -8,12 +8,21 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout Repository and Switch to gh-pages
+    - name: Checkout Repository
       uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
       with:
-        ref: gh-pages  # Switch to the gh-pages branch
+        node-version: 14  # Change this to your Node.js version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build  # Replace with your build command
 
     - name: Copy Build Files to gh-pages Branch
       run: |
@@ -21,6 +30,7 @@ jobs:
         mv build /tmp/build
 
         # Clean up the current branch (gh-pages)
+        git checkout gh-pages
         git rm -r --ignore-unmatch .
 
         # Copy the build files to the current branch (gh-pages)
