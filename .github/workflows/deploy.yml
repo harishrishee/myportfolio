@@ -30,6 +30,8 @@ jobs:
 
     - name: Switch to gh-pages Branch
       run: |
+        git config user.name "harishrishee"
+        git config user.email "harishrishee@gmail.com"
         git checkout --orphan gh-pages  # Create a new orphan branch named gh-pages
         git reset --hard  # Reset the branch to have no commit history
         git commit --allow-empty -m "Initial commit"  # Create an initial commit
@@ -42,8 +44,6 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git config user.name "harishrishee"
-        git config user.email "harishrishee@gmail.com"
         git add .
         git commit -m "Deploy to GitHub Pages"
         git push origin gh-pages
