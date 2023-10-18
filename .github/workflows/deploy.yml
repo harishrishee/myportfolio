@@ -30,6 +30,10 @@ jobs:
 
     - name: Switch to gh-pages Branch
       run: |
+        git checkout --orphan gh-pages  # Create a new orphan branch named gh-pages
+        git reset --hard  # Reset the branch to have no commit history
+        git commit --allow-empty -m "Initial commit"  # Create an initial commit
+        git push origin gh-pages  # Push the branch to the remote repository
         git checkout gh-pages
 
     - name: Copy Files to gh-pages Branch
