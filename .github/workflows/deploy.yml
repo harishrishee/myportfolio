@@ -29,7 +29,7 @@ jobs:
         git config --global user.name "harishrishee"
         git config --global user.email "harishrishee@mail.com"
         git checkout --orphan gh-pages
-        git --set-upstream-to=origin/master
+        git remote add origin https://github.com/harishrishee/myportfolio.git
         git rm -rf .
         mv -f build/* .
         touch .nojekyll  # Use this if you want to disable Jekyll processing (useful for static sites)
