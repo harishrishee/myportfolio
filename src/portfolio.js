@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -23,9 +23,8 @@ const greeting = {
   logo_name: "Harish Kumar",
   nickname: "HKR",
   subTitle:
-    "Experienced QA professional with over 7 years of expertise in manual and automation testing, specializing in Selenium, performance testing, Continuous Integration/Continuous Deployment (CI/CD), and DevOps practices. Proven track record of ensuring software quality, enhancing testing processes, and collaborating effectively within cross-functional teams.",
-  resumeLink:
-    "",
+    "Seasoned QA professional with over 7 years of experience in manual and automation testing. Specializes in Selenium, performance testing, CI/CD, and DevOps practices. Demonstrated success in ensuring software quality, optimizing testing processes, and collaborating seamlessly with cross-functional teams.",
+  resumeLink: "",
   portfolio_repository: "https://github.com/harishrishee/masterPortfolio",
   githubProfile: "https://github.com/harishrishee",
 };
@@ -289,7 +288,7 @@ const skills = {
     },
     {
       title: "Cypress",
-      fileName: "DesignImg",
+      fileName: "CypressImg",
       skills: [
         "⚡ Proficient in Cypress for end-to-end testing of web applications, ensuring high-quality user experiences.",
         "⚡ Expertise in writing clean and maintainable test scripts using JavaScript, enhancing test reliability and maintainability.",
@@ -314,6 +313,40 @@ const skills = {
         },
       ],
     },
+    // {
+    //   title: "DevOps",
+    //   fileName: "CypressImg",
+    //   skills: [
+    //     "⚡ Proficient in Cypress for end-to-end testing of web applications, ensuring high-quality user experiences.",
+    //     "⚡ Expertise in writing clean and maintainable test scripts using JavaScript, enhancing test reliability and maintainability.",
+    //     "⚡ Ability to create comprehensive test suites, covering various user scenarios and application functionalities.",
+    //     "⚡ Experience in real-time debugging and time-travel debugging, facilitating quick issue identification and resolution.",
+    //     "⚡ Knowledge of integrating Cypress with continuous integration (CI) pipelines for automated testing.",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "simple-icons:docker",
+    //       style: {
+    //         color: "#2496ED",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Kubernetes",
+    //       fontAwesomeClassname: "simple-icons:kubernetes",
+    //       style: {
+    //         color: "#326CE5",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Amazon EKS",
+    //       fontAwesomeClassname: "simple-icons:amazoneks",
+    //       style: {
+    //         color: "#FF9900",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -396,123 +429,123 @@ const degrees = {
 //Hiding this sectio
 const certifications = {
   certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+    //   alt_name: "Stanford University",
+    //   color_code: "#8C151599",
+    // },
+    // {
+    //   title: "Deep Learning",
+    //   subtitle: "- Andrew Ng",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "Data Science",
+    //   subtitle: "- Alex Aklson",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Big Data",
+    //   subtitle: "- Kim Akers",
+    //   logo_path: "microsoft_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+    //   alt_name: "Microsoft",
+    //   color_code: "#D83B0199",
+    // },
+    // {
+    //   title: "Advanced Data Science",
+    //   subtitle: "- Romeo Kienzler",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Advanced ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "DL on Tensorflow",
+    //   subtitle: "- Laurence Moroney",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Fullstack Development",
+    //   subtitle: "- Jogesh Muppala",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+    //   alt_name: "Coursera",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "",
   description:
-    "I have worked with many evolving startups as Test Engineer and SSDET-II. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups as Test Engineer and SSDET-III. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -520,22 +553,22 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Senior Software Development Engineer in Test (SSDET-II)",
-          company: "Zemoso Technologies Pvt Ltd",
-          company_url: "https://www.zemosolabs.com/",
+          title: "Senior Software Development Engineer in Test (SSDET-III)",
+          company: "Baker Hughes pvt Ltd.(Zemoso Technologies Pvt Ltd)",
+          company_url: "https://www.bakerhughes.com/",
           logo_path: "legato_logo.png",
-          duration: "Nov 2019 - Till Now",
+          duration: "Dec 2019 - Till Now",
           location: "Hyderabad, Telangana",
           description:
-            "As a Senior Software Development Engineer in Test (SSDET-II), I excel in manual and automation testing using Selenium and Java, ensuring robust software quality. Proficient in performance testing methodologies, I also possess leadership skills to effectively lead and mentor testing teams, enhancing overall product reliability and quality.",
+            "As a Senior Software Development Engineer in Test (SSDET-III), I excel in manual and automation testing using Selenium and Java, ensuring robust software quality. Proficient in performance testing methodologies, I also possess leadership skills to effectively lead and mentor testing teams, enhancing overall product reliability and quality.",
           color: "#0879bf",
         },
         {
-          title: "Testing Engineer",
+          title: "Quality Analyst",
           company: "Infasta Software Solutions Pvt Ltd",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+          company_url: "https://www.infasta.com/",
           logo_path: "muffito_logo.png",
-          duration: "Jun 2017 - Nov 2019",
+          duration: "Jun 2017 - Dec 2019",
           location: "Hyderabad, Telangana",
           description:
             "As a Testing Engineer, I proficiently execute manual and automated testing using Selenium and Java. My expertise lies in ensuring software quality, detecting defects, and enhancing system reliability. I employ systematic testing approaches to deliver high-quality, error-free software products, contributing to overall project success.",
