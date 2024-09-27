@@ -6,7 +6,7 @@ export default class CypressImg extends Component {
     return (
       <img
         className="cypress"
-        src="/icons/product-iteration-animate.svg"
+        src={require("../../assests/images/product-iteration-animate.svg")}
         alt="Logo"
       />
     );
