@@ -38,13 +38,13 @@ const socialMediaLinks = [
   },
   {
     name: "Github",
-    link: "",
+    link: "https://github.com/harishrishee",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "",
+    link: "https://www.linkedin.com/in/harish-kumar-06996012b/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
