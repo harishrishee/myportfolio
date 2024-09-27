@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-export default class DesignImg extends Component {
+export default class CypressImg extends Component {
   render() {
     //const theme = this.props.theme;
     return (
       <img
-        className="raw_logo"
-        src="/icons/performance-overview-animate.svg"
+        className="cypress"
+        src="/icons/product-iteration-animate.svg"
         alt="Logo"
       />
     );

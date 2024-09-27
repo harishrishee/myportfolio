@@ -1,15 +1,13 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "HarishPortfolio",
   "homepage": ".",
   "version": "0.1.0",
   "scripts": {
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test"
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",
